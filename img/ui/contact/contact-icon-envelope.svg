@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <rect id="c" width="32" height="32"/>
+    <polygon id="a" points="1 0 15 12 29 0"/>
+    <mask id="e" width="32" height="16" x="-2" y="-2">
+      <rect width="32" height="16" x="-1" y="-2" fill="white"/>
+      <use fill="black" xlink:href="#a"/>
+    </mask>
+    <rect id="b" width="28" height="18" x="1"/>
+    <mask id="f" width="32" height="22" x="-2" y="-2">
+      <rect width="32" height="22" x="-1" y="-2" fill="white"/>
+      <use fill="black" xlink:href="#b"/>
+    </mask>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="d" fill="white">
+      <use xlink:href="#c"/>
+    </mask>
+    <g transform="translate(1 7)" mask="url(#d)">
+      <rect width="2" height="12.969" x="23.585" y="7.101" fill="#008BFF" opacity=".5" transform="rotate(-45 24.585 13.585)" rx="1"/>
+      <rect width="2" height="12.852" x="4.542" y="7.203" fill="#008BFF" opacity=".5" transform="scale(-1 1) rotate(-45 0 27.008)" rx="1"/>
+      <use stroke="#008BFF" stroke-width="4" mask="url(#e)" stroke-linecap="round" stroke-linejoin="round" xlink:href="#a"/>
+      <use stroke="#008BFF" stroke-width="4" mask="url(#f)" stroke-linecap="round" stroke-linejoin="round" xlink:href="#b"/>
+    </g>
+  </g>
+</svg>

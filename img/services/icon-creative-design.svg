@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <rect id="a" width="48" height="48"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <g stroke="#FFFFFF" stroke-width="2" transform="translate(1 2)" mask="url(#b)" stroke-linecap="round" stroke-linejoin="round">
+      <polygon points="15.276 0 30.724 0 37 3 30.724 6 15.276 6 9 3"/>
+      <polygon points="31.161 0 15.333 0 8.409 3.246 0 14.067 23 44 46 14.067 38.086 3.246"/>
+      <polygon points="15.32 6 11 19 35 19 30.68 6"/>
+      <polygon points="11 19 23 43 35 19"/>
+      <path d="M12,19 L1,14"/>
+      <path d="M46,19 L35,14" transform="matrix(-1 0 0 1 81 0)"/>
+    </g>
+  </g>
+</svg>
